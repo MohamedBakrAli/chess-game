@@ -1,0 +1,15 @@
+<h1 class="player-header">
+    <span [style.color]="playerColor" >{{ playerColor }}</span>
+    player
+</h1>
+
+<h3 *ngIf="isPlayerTurn;else wait">Let's play, it's your turn!</h3>
+<ng-template #wait>
+    <p >Wait for other player to make a move</p>
+</ng-template>
+
+<div class="board-container">
+    <ngx-chess-board #board (moveChange)="moveChanged()"
+        [dragDisabled]="! isPlayerTurn" [ngClass]="{'disabled': ! isPlayerTurn}">
+    </ngx-chess-board>
+</div>

@@ -1,0 +1,12 @@
+.player-header {
+    text-align: center;
+}
+.board-container {
+    width: 100%;
+    text-align: center;
+}
+
+.disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}

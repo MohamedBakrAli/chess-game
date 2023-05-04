@@ -1,0 +1,11 @@
+<h2 mat-dialog-title>Game Complete</h2>
+<mat-dialog-content>
+    <p>
+        Thanks for playing! 
+        {{ getGameState() }}
+    </p>
+</mat-dialog-content>
+<mat-dialog-actions>
+  <button mat-button (click)="onReplay()">Replay</button>
+  <button mat-button (click)="onCancel()">Cancel</button>
+</mat-dialog-actions>
