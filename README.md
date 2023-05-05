@@ -1,7 +1,8 @@
-# PencilFEAssignment
+# chess-game
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.7.
-
+## Demo:
+You can test the game from here (https://chess-game-c81e0.web.app/)
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
